@@ -1,0 +1,81 @@
+[
+  {
+    "id": 1,
+    "avatarFallback": "CE",
+    "avatarSrc": "https://pub-cd2980acaa6d4462a4356b5afe3a82d6.r2.dev/agenticon/e2ff395e-a904-42a4-bd47-44d7c57b93d8.png",
+    "createdByUser": "nursid",
+    "description": "documetation agent",
+    "agent_id": "1930bfa0-cb51-424e-8c89-767305bf4c1d",
+    "longDescription": "A basic agent designed for the Codebolt platform, offering a range of functionalities to enhance interaction with the platform.",
+    "tags": [
+      "document code"
+    ],
+    "title": "Documentation agent",
+    "zipFilePath": "https://storage.googleapis.com/codeboltai.appspot.com/agents/3lrdzvCdX0.zip",
+    "unique_id": "documentaionagent",
+    "metadata": {
+      "defaultagentllm": {
+        "strict": true,
+        "modelorder": [
+          "ollama2",
+          "test"
+        ]
+      },
+      "llm_role": [
+        {
+          "name": "actionllm",
+          "description": "LLM to be used for executing advanced actions.",
+          "strict": true,
+          "modelorder": [
+            "group.actionmodels",
+            "test"
+          ]
+        }
+      ],
+      "agent_routing": {
+        "worksonblankcode": true,
+        "supportedframeworks": [
+          "nextjs",
+          "nodejs",
+          "react"
+        ],
+        "supportedlanguages": [
+          "javascript",
+          "typescript",
+          "test"
+        ],
+        "worksonexistingcode": true
+      },
+      "sdlc_steps_managed": [
+        {
+          "example_instructions": [
+            "documentation code"
+          ],
+          "name": "codegeneration"
+        }
+      ]
+    },
+    "initial_message": "Hello! I'm your advanced AI developer. How can I assist you today?",
+    "actions": [
+      {
+        "detailDescription": "more detailed description",
+        "name": "Execute",
+        "description": "Executes the given task.",
+        "actionPrompt": "Please run this code"
+      }
+    ],
+    "slug": "1930bfa0cb51424e8c89767305bf4c1d",
+    "version": "1.3.0",
+    "author": "",
+    "status": 1,
+    "updatedAt": "2025-04-08T06:02:00.435Z",
+    "sourceCodeUrl": null,
+    "lastUpdatedUI": 1,
+    "githubUrl": null,
+    "isInvalid": 1,
+    "isVerified": 1,
+    "isDisabled": 1,
+    "isPrivate": 1,
+    "isLocal": false
+  }
+]
